@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class swap_v1
+{
+public static void main ( String [] args )
+{
+Scanner hp = new Scanner ( Sytem.in );
+int first_num;
+int second_num;
+first_num = hp.nextInt ();
+second_num = hp.nextInt ();
+first_num = first_num ^ second_num;
+second_num = first_num ^ second_num;
+first_num = first_num ^ second_num;
+Sytem.out.println("Swapped :" first_num + "" + second_num);
+}
+}
